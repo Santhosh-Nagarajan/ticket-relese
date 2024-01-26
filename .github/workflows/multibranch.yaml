@@ -29,10 +29,10 @@ jobs:
         git branch
         git pull origin develop --allow-unrelated-histories
         git rm README.md
-        
+        git status
         git add .
         git commit -m "update" 
-        git rebase --abort
+        git rebase --skip
         
         git log
           
