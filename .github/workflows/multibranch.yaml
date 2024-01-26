@@ -32,7 +32,7 @@ jobs:
         git status
         git add .
         git commit -m "update" 
-        git rebase --skip
+        git rebase develop ahamed
         
         git log
           
