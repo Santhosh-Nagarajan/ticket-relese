@@ -28,6 +28,8 @@ jobs:
         git checkout develop
         git branch
         git pull origin develop --allow-unrelated-histories
+        git merge ahamed --allow-unrelated-histories
+        
         git log
           
 
