@@ -34,7 +34,7 @@ jobs:
         git commit -m "new" 
         
         
-        git rebase ahamed develop
+        git rebase develop ahamed
         
         git log
         git remote set-url origin https://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@github.com/Santhosh-Nagarajan/ticket-relese.git
