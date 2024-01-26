@@ -27,9 +27,7 @@ jobs:
         git branch --all
         git checkout develop
         git branch
-        git pull origin master --allow-unrelated-histories
-        git merge ahamed
-        
-        git push origin develop
+        git pull origin develop --allow-unrelated-histories
+        git log
           
 
