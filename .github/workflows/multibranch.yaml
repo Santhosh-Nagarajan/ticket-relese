@@ -29,7 +29,7 @@ jobs:
         git branch
         git pull origin develop --allow-unrelated-histories
         git rm README.md
-        rm README.md
+        
         git add .
         git commit -m "update" 
         git rebase ahamed
