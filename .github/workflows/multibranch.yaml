@@ -28,7 +28,7 @@ jobs:
         git checkout develop
         git branch
         git pull origin develop --allow-unrelated-histories
-        git rm -r demo.txt .github/ READme.md
+        git rm -r demo.txt .github/
         git status
         git add .
         git commit -m "new" 
