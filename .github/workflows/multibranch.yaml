@@ -25,6 +25,7 @@ jobs:
 
         git pull
         git branch --all
-        git checkout         
+        git checkout develop
+        git merge ahamed develop
           
 
