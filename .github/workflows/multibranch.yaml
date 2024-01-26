@@ -28,9 +28,9 @@ jobs:
         git checkout develop
         git branch
         git pull origin develop --allow-unrelated-histories
-        git mergetool
-        git status
-        git merge ahamed develop --allow-unrelated-histories
+        
+        
+        git rebase ahamed
         
         git log
           
