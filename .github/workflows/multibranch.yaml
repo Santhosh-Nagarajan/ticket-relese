@@ -32,7 +32,7 @@ jobs:
         
         git add .
         git commit -m "update" 
-        git rebase ahamed develop
+        git rebase --abort
         
         git log
           
