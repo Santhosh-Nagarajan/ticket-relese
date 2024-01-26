@@ -33,7 +33,9 @@ jobs:
         git add .
         git commit -m "update" 
         git rebase develop ahamed
+        git rebase ahamed develop
         
         git log
+        git push -u origin develop
           
 
