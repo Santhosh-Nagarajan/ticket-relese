@@ -25,13 +25,8 @@ jobs:
 
         git pull
         git branch --all
-        git checkout develop
-        git branch
-        git pull origin develop --allow-unrelated-histories
-        
-        git status
-        # git add .
-        # git commit -m "new" 
+        git push --delete origin develop || ls
+        git checkout -b develop || git branch
         
         
         git rebase develop ahamed
