@@ -25,10 +25,10 @@ jobs:
 
         git pull
         git branch --all
-        git push --delete origin develop || ls
+        git checkout develop
+        
+           git push --delete origin develop || ls
         git checkout -b develop || git branch
-        
-        
         git rebase develop ahamed
         git rebase ahamed develop
         git log
