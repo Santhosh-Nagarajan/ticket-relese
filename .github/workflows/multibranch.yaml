@@ -30,8 +30,8 @@ jobs:
         git pull origin develop --allow-unrelated-histories
         
         git status
-        git add .
-        git commit -m "new" 
+        # git add .
+        # git commit -m "new" 
         
         
         git rebase develop ahamed
